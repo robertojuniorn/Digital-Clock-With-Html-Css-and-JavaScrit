@@ -4,7 +4,7 @@ body {
 }
 
 h1{
-    color: white;
+    color:#34495e;
     text-align: center;
 }
  
@@ -14,7 +14,7 @@ div {
     width:400px;
     height:150px;
     border-radius:15px;
-    color:#ecf0f1;
+    color:yellowgreen;
     text-align:center;
     line-height:150px;
     font-size:80px
