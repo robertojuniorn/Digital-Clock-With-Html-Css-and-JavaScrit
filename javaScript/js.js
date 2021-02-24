@@ -1,11 +1,11 @@
 
-function clock() {
+function clock () {
 
     // This code get the hours, minute and second in the real time
     const fullDate = new Date();
     var hours = fullDate.getHours();
     var mins = fullDate.getMinutes();
-    var secs = fullDate.getMinutes();
+    var secs = fullDate.getSeconds();
 
     if(hour < 10){
         hours = "0" + hour;
@@ -21,9 +21,9 @@ function clock() {
 
     document.getElementById('hour').innerHTML = hours;
     document.getElementById('minute').innerHTML = ":"+ mins;
-    document.getElementById('second').innerHTML =":" + secs;
-
+    document.getElementById('second').innerHTML =":" + secs;   
 }
 
-
-setInterval(clock, 100);
+window.onload = function () {
+    setInterval(clock, 500);
+}
