@@ -24,6 +24,7 @@ function clock () {
     document.getElementById('second').innerHTML =":" + secs;   
 }   
 
+
 window.onload = function () {
     setInterval(clock, 500);
 }
