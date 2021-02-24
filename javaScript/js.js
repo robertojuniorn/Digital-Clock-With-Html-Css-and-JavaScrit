@@ -1,8 +1,8 @@
 
 function clock () {
 
-    // This code get the hours, minute and second in the real time
-    
+    // This block of code gets the hours, minute and second in real time
+
     const fullDate = new Date();
     var hours = fullDate.getHours();
     var mins = fullDate.getMinutes();
@@ -23,7 +23,7 @@ function clock () {
     document.getElementById('hour').innerHTML = hours;
     document.getElementById('minute').innerHTML = ":"+ mins;
     document.getElementById('second').innerHTML =":" + secs;   
-}
+}   
 
 window.onload = function () {
     setInterval(clock, 500);
