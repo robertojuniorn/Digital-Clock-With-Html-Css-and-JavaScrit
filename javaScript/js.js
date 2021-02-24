@@ -2,6 +2,7 @@
 function clock () {
 
     // This code get the hours, minute and second in the real time
+    
     const fullDate = new Date();
     var hours = fullDate.getHours();
     var mins = fullDate.getMinutes();
