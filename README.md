@@ -1,2 +1,2 @@
-# Digital Clock With Html Css and JavaScrit
- The simple clock with JavaScript
+# Digital Clock With Html Css and JavaScript
+ The simple clock with Vanilla Js
